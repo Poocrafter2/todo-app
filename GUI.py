@@ -15,6 +15,7 @@ while True:
     event, values = window.read()
     print(event)
     print(values)
+    print("hello")
     match event:
         case "Add":
             todos = functions.get_task()
